@@ -1,0 +1,198 @@
+*{
+    padding:0;
+    margin: 0;
+}
+button{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color:rgb(22, 22, 85);
+ }
+header div li{
+    list-style: none;
+    padding:10px;
+    font-size:1.4em;
+    color:white;
+}
+header div li:hover{
+    color:rgb(199, 71, 71);
+    cursor: pointer;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background: rgb(87, 87, 245); */
+    background: #103363
+    
+}
+header div ul{
+    display: flex;
+    flex-direction: row;
+ }
+ .name-right{
+    color:rgb(199, 71, 71);
+    font-weight: bold;
+}
+
+ .container-one{
+    width: 100%;
+    height: 800px;
+     background-image: url("https://marketing-prod.global.ssl.fastly.net/sites/default/files/2017-03/GA_Coding_2x_2.jpg");
+     background-size: 100% 100% ;
+     background-repeat: no-repeat;
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;     
+ }
+ .container-one h1{
+     text-align: center;
+     color:rgb(199, 71, 71);
+      
+ }
+ .box-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-bottom: 40px
+ }
+ .box-container .box{
+      width:32%;
+      display: flex;
+      flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+     min-height: 280px;
+     border-right:solid 1px rgb(135, 135, 172);
+     
+ }
+
+.box:last-child{
+    border-right:none 0px;
+    
+ }
+ .box h3{
+    text-align: justify
+    
+ }
+ .container-two{
+     min-height: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .con-two-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .con-two-text h1{
+      padding: 10px;
+  }
+.container-two{
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #443f3e;
+    color:white;
+     overflow: hide
+}
+.container-two p{
+    width:80%;
+    text-align: justify;
+    font-size: 19px;
+    color: white;
+}
+.box p{
+    font-size: 22px;
+}
+.box:nth-child(1) p{
+    color:rgb(185, 94, 94);
+    
+}
+.box:nth-child(1) button{
+    background: rgb(153, 135, 133);
+}
+.box:nth-child(2) button{
+    background: rgb(138, 156, 140);
+}
+.box:nth-child(3) button{
+    background: rgb(156, 145, 133);
+}
+.box:nth-child(2) p{
+    color:rgb(94, 185, 98)
+}
+.box:nth-child(3) p{
+    color:rgb(185, 148, 94)
+}
+
+.con-two-text{
+    color:rgb(230, 211, 211);
+    margin:100px;
+     border:solid 1px rgb(238, 224, 224);
+    padding: 20px;
+}
+
+.con-three-up{
+    min-height: 450px;
+    background: #2b2828; 
+    overflow: auto 
+}
+.container-three{
+    margin:50px;
+    min-height: 450px;
+    background: #2b2828;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:solid 1px rgb(214, 221, 197);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.container-three p{
+color:white;
+width: 80%;
+text-align: justify;
+font-size: 22px;
+
+}
+.container-three h1{
+color:white
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+ }
+ .footer{
+     width:50%;
+
+ }
+ .footer-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
