@@ -246,3 +246,24 @@ color:white
     border-right:none 0px;
     
  }
+
+ .container-box-one{
+     background: rgb(119, 101, 101)
+ }
+ .container-box-two{
+    background: rgb(121, 88, 88)
+    
+ }
+ .container-box-three{
+    background: rgb(131, 89, 89)
+    
+}
+.container-box-four{
+    background: rgb(139, 88, 88)
+    
+}
+.container-box-five{
+    background: red
+    
+}
+ 
