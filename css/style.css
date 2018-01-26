@@ -2,6 +2,13 @@
     padding:0;
     margin: 0;
 }
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    color:red;
+}
 button{
     display: inline-block;
     font-weight: 400;
@@ -181,18 +188,61 @@ font-size: 22px;
 color:white
 }
 
-footer{
+.top-footer{
     display: flex;
     flex-direction: row;
     min-height: 300px;
+    color:white
  }
  .footer{
      width:50%;
-
+     background: #181717;
+     
+     
  }
  .footer-left{
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+ }
+ .footer-right{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     border-left: dotted 1px white;
+ }
+ .footer-right-right{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+ }
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    background: black;
+
+ }
+ footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+ footer ul li{
+     list-style: none;
+     padding: 5px;
+ }
+ footer ul li{
+     border-right: solid 1px white;
+ }
+ footer ul li:last-child{
+    border-right:none 0px;
+    
  }
